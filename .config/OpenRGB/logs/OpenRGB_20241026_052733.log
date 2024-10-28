@@ -1,0 +1,45 @@
+    OpenRGB v0.9
+    Commit:  from 
+    Launched: 20241026_052733
+====================================================================================================
+
+3     |Info:    Found file: kinveth.orp attempting to validate header
+6     |Info:    Valid v4 profile found for kinveth
+6     |Info:    Found file: off.orp attempting to validate header
+6     |Info:    Valid v4 profile found for off
+1028  |Info:    ------------------------------------------------------
+1028  |Info:    |               Start device detection               |
+1028  |Info:    ------------------------------------------------------
+1029  |Info:    Initializing HID interfaces: Success
+1035  |Info:    ------------------------------------------------------
+1035  |Info:    |             Detecting I2C interfaces               |
+1035  |Info:    ------------------------------------------------------
+1036  |Info:    Registering I2C interface: /dev/i2c-3 Device 10DE:2803 Subsystem: 1043:88F8
+1036  |Info:    Registering I2C interface: /dev/i2c-1 Device 10DE:2803 Subsystem: 1043:88F8
+1036  |Info:    Registering I2C interface: /dev/i2c-2 Device 10DE:2803 Subsystem: 1043:88F8
+1036  |Info:    Registering I2C interface: /dev/i2c-0 Device 10DE:2803 Subsystem: 1043:88F8
+1036  |Info:    ------------------------------------------------------
+1036  |Info:    |               Detecting I2C devices                |
+1036  |Info:    ------------------------------------------------------
+1038  |Info:    ------------------------------------------------------
+1038  |Info:    |               Detecting I2C PCI devices            |
+1038  |Info:    ------------------------------------------------------
+1038  |Info:    ------------------------------------------------------
+1038  |Info:    |               Detecting HID devices                |
+1038  |Info:    ------------------------------------------------------
+1213  |Info:    [X570 AORUS ELITE] Registering RGB controller
+1243  |Info:    [KLM] Created new Sixty percent ANSI QWERTY with 5 rows and 14 columns containing 61 keys
+1243  |Info:    [Razer Huntsman Mini] Registering RGB controller
+1299  |Info:    [SteelSeries Rival 600] Registering RGB controller
+1299  |Info:    ------------------------------------------------------
+1299  |Info:    |            Detecting libusb HID devices            |
+1299  |Info:    ------------------------------------------------------
+1484  |Info:    ------------------------------------------------------
+1484  |Info:    |              Detecting other devices               |
+1484  |Info:    ------------------------------------------------------
+1497  |Info:    ------------------------------------------------------
+1497  |Info:    |                Detection completed                 |
+1497  |Info:    ------------------------------------------------------
+1497  |Info:    Profile loading: Succeeded for X570 AORUS ELITE @ HID: /dev/hidraw0
+1497  |Info:    Profile loading: FAILED! for Razer Huntsman Mini @ HID: /dev/hidraw4
+1497  |Info:    Profile loading: Succeeded for SteelSeries Rival 600 @ HID: /dev/hidraw6

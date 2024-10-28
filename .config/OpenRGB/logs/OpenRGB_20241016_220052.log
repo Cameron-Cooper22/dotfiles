@@ -1,0 +1,48 @@
+    OpenRGB v0.9
+    Commit:  from 
+    Launched: 20241016_220052
+====================================================================================================
+
+1     |Info:    Found file: kinveth.orp attempting to validate header
+1     |Info:    Valid v4 profile found for kinveth
+1     |Info:    Found file: off.orp attempting to validate header
+2     |Info:    Valid v4 profile found for off
+1022  |Info:    ------------------------------------------------------
+1023  |Info:    |               Start device detection               |
+1023  |Info:    ------------------------------------------------------
+1023  |Info:    Initializing HID interfaces: Success
+1033  |Info:    ------------------------------------------------------
+1033  |Info:    |             Detecting I2C interfaces               |
+1033  |Info:    ------------------------------------------------------
+1034  |Info:    Registering I2C interface: /dev/i2c-3 Device 10DE:2803 Subsystem: 1043:88F8
+1034  |Info:    Registering I2C interface: /dev/i2c-1 Device 10DE:2803 Subsystem: 1043:88F8
+1034  |Info:    Registering I2C interface: /dev/i2c-2 Device 10DE:2803 Subsystem: 1043:88F8
+1034  |Info:    Registering I2C interface: /dev/i2c-0 Device 10DE:2803 Subsystem: 1043:88F8
+1034  |Info:    ------------------------------------------------------
+1034  |Info:    |               Detecting I2C devices                |
+1034  |Info:    ------------------------------------------------------
+1036  |Info:    ------------------------------------------------------
+1036  |Info:    |               Detecting I2C PCI devices            |
+1036  |Info:    ------------------------------------------------------
+1036  |Info:    ------------------------------------------------------
+1036  |Info:    |               Detecting HID devices                |
+1036  |Info:    ------------------------------------------------------
+1211  |Info:    [X570 AORUS ELITE] Registering RGB controller
+1212  |Info:    [SteelSeries Arctis 5] Registering RGB controller
+1269  |Info:    [SteelSeries Rival 600] Registering RGB controller
+1271  |Info:    [Logitech G Pro RGB Mechanical Gaming Keyboard] Registering RGB controller
+1326  |Info:    [SteelSeries QCK Prism Cloth XL] Registering RGB controller
+1326  |Info:    ------------------------------------------------------
+1326  |Info:    |            Detecting libusb HID devices            |
+1326  |Info:    ------------------------------------------------------
+1568  |Info:    ------------------------------------------------------
+1568  |Info:    |              Detecting other devices               |
+1568  |Info:    ------------------------------------------------------
+1582  |Info:    ------------------------------------------------------
+1582  |Info:    |                Detection completed                 |
+1582  |Info:    ------------------------------------------------------
+1582  |Info:    Profile loading: Succeeded for X570 AORUS ELITE @ HID: /dev/hidraw0
+1582  |Info:    Profile loading: FAILED! for SteelSeries Arctis 5 @ HID: /dev/hidraw4
+1582  |Info:    Profile loading: Succeeded for SteelSeries Rival 600 @ HID: /dev/hidraw1
+1582  |Info:    Profile loading: Succeeded for Logitech G Pro RGB Mechanical Gaming Keyboard @ 
+1582  |Info:    Profile loading: Succeeded for SteelSeries QCK Prism Cloth XL @ HID: /dev/hidraw8
